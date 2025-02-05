@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const uncheckAllButton = document.getElementById("uncheck-all");
     const saveSettingsButton = document.getElementById("save-settings");
 
-    // Dapatkan tab aktif dan domain saat ini
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         const activeTab = tabs[0];
 
@@ -15,19 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
             const currentDomain = new URL(activeTab.url).hostname;
             statusDisplay.textContent = `Domain: ${currentDomain}`;
 
-            // Dapatkan whitelist dan elemen yang diblokir
             chrome.storage.local.get(["whitelist", "blockedElements"], (data) => {
                 const whitelist = data.whitelist || [];
                 const blockedElements = data.blockedElements || {};
                 const currentBlocked = blockedElements[currentDomain] || [];
 
-                // Update tombol whitelist
                 const isWhitelisted = whitelist.includes(currentDomain);
                 toggleBlockingButton.textContent = isWhitelisted
-                    ? "Aktifkan Pemblokiran"
-                    : "Nonaktifkan di Situs Ini";
+                    ? "Enable Blocking"
+                    : "Disable on This Site";
 
-                // Event listener untuk toggle whitelist
                 toggleBlockingButton.addEventListener("click", () => {
                     const updatedWhitelist = isWhitelisted
                         ? whitelist.filter(domain => domain !== currentDomain)
@@ -35,13 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     chrome.storage.local.set({ whitelist: updatedWhitelist }, () => {
                         toggleBlockingButton.textContent = isWhitelisted
-                            ? "Nonaktifkan di Situs Ini"
-                            : "Aktifkan Pemblokiran";
+                            ? "Disable on This Site"
+                            : "Enable Blocking";
                         chrome.tabs.reload();
                     });
                 });
 
-                // Eksekusi skrip untuk mendapatkan elemen DOM
                 chrome.scripting.executeScript(
                     {
                         target: { tabId: activeTab.id },
@@ -60,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         elementListContainer.innerHTML = "";
 
                         if (elements.length === 0) {
-                            elementListContainer.innerHTML = "<p>Tidak ada elemen yang dapat diblokir.</p>";
+                            elementListContainer.innerHTML = "<p>There are no elements to block.</p>";
                             return;
                         }
 
@@ -83,7 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             listItem.appendChild(label);
                             elementListContainer.appendChild(listItem);
 
-                            // Tandai elemen yang sudah diblokir
                             if (currentBlocked.some(blocked =>
                                 blocked.tag === element.tag &&
                                 blocked.id === element.id &&
@@ -96,21 +90,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 );
             });
 
-            // Event listener untuk "Pilih Semua"
             checkAllButton.addEventListener("click", () => {
                 elementListContainer.querySelectorAll("input[type='checkbox']").forEach(checkbox => {
                     checkbox.checked = true;
                 });
             });
 
-            // Event listener untuk "Hapus Semua"
             uncheckAllButton.addEventListener("click", () => {
                 elementListContainer.querySelectorAll("input[type='checkbox']").forEach(checkbox => {
                     checkbox.checked = false;
                 });
             });
 
-            // Pencarian elemen
             searchInput.addEventListener("input", (event) => {
                 const query = event.target.value.toLowerCase();
                 elementListContainer.querySelectorAll(".element-item").forEach(item => {
@@ -119,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
 
-            // Simpan pengaturan
             saveSettingsButton.addEventListener("click", () => {
                 const selectedElements = Array.from(elementListContainer.querySelectorAll("input[type='checkbox']:checked")).map(checkbox => ({
                     tag: checkbox.dataset.tag,
@@ -134,13 +124,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     };
 
                     chrome.storage.local.set({ blockedElements: updatedBlockedElements }, () => {
-                        alert("Pengaturan berhasil disimpan!");
+                        alert("Settings saved successfully!");
                         chrome.tabs.reload();
                     });
                 });
             });
         } else {
-            statusDisplay.textContent = "Tab tidak memiliki URL yang valid.";
+            statusDisplay.textContent = "The tab does not have a valid URL.";
             toggleBlockingButton.style.display = "none";
         }
     });
