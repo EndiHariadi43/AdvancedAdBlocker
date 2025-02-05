@@ -24,7 +24,7 @@
 
 ---
 
-## 📜 Cara Penggunaan
+## 📖 Cara Penggunaan
 1. **Buka Situs Web** yang ingin Anda kunjungi
 2. **Klik Ikon Ekstensi** di pojok kanan atas browser
 3. **Pilih Opsi yang Diinginkan** (Blokir Iklan, Hapus Iklan YouTube, dll.)
