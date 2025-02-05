@@ -27,9 +27,9 @@ chrome.runtime.onInstalled.addListener(() => {
         },
         () => {
             if (chrome.runtime.lastError) {
-                console.error("Gagal memperbarui aturan pemblokiran:", chrome.runtime.lastError);
+                console.error("Failed to update blocking rules:", chrome.runtime.lastError);
             } else {
-                console.log("Aturan pemblokiran diperbarui.");
+                console.log("Blocking rules updated.");
             }
         }
     );
