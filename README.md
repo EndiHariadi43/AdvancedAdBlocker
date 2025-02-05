@@ -15,7 +15,7 @@
 > _"In this ever-changing world, be the guiding light with knowledge, kindness, and courage."_  
 
 ✨ **Karl** – May you always have the wisdom to lead with a strong and kind heart.  
-✨ **Arsyad** – May you always have the curiosity to explore the world without limits.  
+✨ **Zain** – May you always have the curiosity to explore the world without limits.  
 ✨ **Azkiya** – May you always have the sincerity and grace to bring peace wherever you go.  
 
 🌿 The world of technology is vast, but a heart full of love is always greater than everything else.  
