@@ -9,8 +9,33 @@
 
 ---
 
-## 🌟 **To My Beloved Children** 💖  
+## 💖 **To My Dearest Wife, Ana Septina**  
 
+> _"In a world full of fleeting moments, you are my **eternal constant**.  
+> Through every storm and sunshine, you stand beside me with unwavering love.  
+> You are the **light in my darkest nights**, the strength in my weakest days,  
+> and the melody in my heart that sings of love unspoken."_  
+
+🌿 **Ana Septina**, my love, my best friend, my greatest blessing.  
+
+✨ Your patience is my peace.  
+✨ Your kindness is my courage.  
+✨ Your love is my home.  
+
+Thank you for every sacrifice, every moment of understanding, and for always believing in me.  
+With you, I am **complete**.  
+
+*"No matter where life takes us, my love for you will always remain timeless."* ❤️  
+
+---
+
+🌹 **Forever yours,**  
+**Endi Hariadi**  
+
+---
+
+## 🌟 **To My Beloved Children** 💖  
+ 
 > **Muhammad Karl Pradipta, Muhammad Arsyad Zain, and Azkiya Nursyifa Aleyna**  
 > _"In this ever-changing world, be the guiding light with knowledge, kindness, and courage."_  
 
