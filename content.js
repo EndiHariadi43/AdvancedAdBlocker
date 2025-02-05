@@ -4,7 +4,7 @@ chrome.storage.sync.get(["whitelist", "blockedElements"], (data) => {
     const blockedElements = data.blockedElements || {};
 
     if (whitelist.some(domain => currentDomain.endsWith(domain))) {
-        console.log(`Pemblokiran dinonaktifkan untuk situs ini: ${currentDomain}`);
+        console.log(`Blocking is disabled for this site: ${currentDomain}`);
         return;
     }
 
@@ -22,7 +22,7 @@ chrome.storage.sync.get(["whitelist", "blockedElements"], (data) => {
         adSelectors.forEach(selector => {
             document.querySelectorAll(selector).forEach(ad => {
                 if (!ad.dataset.processed) {
-                    console.log(`Menghapus iklan: ${selector}`);
+                    console.log(`Remove ads: ${selector}`);
                     ad.remove();
                     ad.dataset.processed = "true";
                 }
@@ -50,36 +50,33 @@ chrome.storage.sync.get(["whitelist", "blockedElements"], (data) => {
         youtubeAdSelectors.forEach(selector => {
             document.querySelectorAll(selector).forEach(ad => {
                 if (!ad.dataset.processed) {
-                    console.log(`Menghapus iklan YouTube: ${selector}`);
+                    console.log(`Removing YouTube ads: ${selector}`);
                     ad.remove();
                     ad.dataset.processed = "true";
                 }
             });
         });
 
-        // Klik otomatis tombol "Lewati Iklan"
         const skipButtons = document.querySelectorAll(
             ".ytp-ad-skip-button, .ytp-skip-ad-button, .ytp-ad-text.ytp-ad-preview-text"
         );
 
         skipButtons.forEach(button => {
-            console.log("Menekan tombol 'Lewati Iklan'.");
+            console.log("Pressing the 'Skip Ad' button.");
             button.click();
         });
 
-        // Hapus iframe iklan YouTube
         document.querySelectorAll("iframe").forEach(iframe => {
             if (iframe.src.includes("doubleclick.net") || iframe.src.includes("googleadservices.com")) {
-                console.log("Menghapus iframe iklan YouTube:", iframe.src);
+                console.log("Removing YouTube ad iframes:", iframe.src);
                 iframe.remove();
             }
         });
 
-        // Coba lewati iklan dengan perintah video API YouTube
         const video = document.querySelector("video");
         if (video) {
             video.currentTime = video.duration;
-            console.log("Mempercepat video iklan.");
+            console.log("Speed ​​up video ads.");
         }
     }
 
@@ -94,15 +91,14 @@ chrome.storage.sync.get(["whitelist", "blockedElements"], (data) => {
 
         adblockSelectors.forEach(selector => {
             document.querySelectorAll(selector).forEach(el => {
-                console.log(`Menghapus deteksi adblock: ${selector}`);
+                console.log(`Remove adblock detection: ${selector}`);
                 el.remove();
             });
         });
 
-        // Blokir eksekusi skrip deteksi adblock
         document.querySelectorAll("script").forEach(script => {
             if (script.textContent.includes("adsBlocked") || script.textContent.includes("adBlockDetected")) {
-                console.log("Memblokir skrip deteksi adblock.");
+                console.log("Blocks adblock detection scripts.");
                 script.remove();
             }
         });
