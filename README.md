@@ -24,6 +24,16 @@
 
 ---
 
+## 📜 Cara Penggunaan
+1. **Buka Situs Web** yang ingin Anda kunjungi
+2. **Klik Ikon Ekstensi** di pojok kanan atas browser
+3. **Pilih Opsi yang Diinginkan** (Blokir Iklan, Hapus Iklan YouTube, dll.)
+4. **Selesai!** Selanjutnya Anda dapt menikmati situs web tanpa iklan yang mengganggu!
+
+NOTE: **Untuk mengaktifkan fitur, Anda harus memperbarui halaman web** (refresh) setelah memilih opsi. Lakukan hal yang sama untuk halaman website lainnya.
+
+---
+
 ## 💰 Donasi & Dukungan
 Ekstensi ini dikembangkan secara **independen**. Jika Anda merasa terbantu, mohon pertimbangkan untuk memberikan **donasi sukarela**.
 
