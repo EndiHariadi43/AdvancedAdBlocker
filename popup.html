@@ -4,8 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Endi Hariadi">
+    <meta name="description"
+        content="Advanced Ad Blocker – Blokir semua iklan, lindungi privasi, dan tingkatkan kecepatan browsing Anda.">
+    <meta name="keywords"
+        content="Ad Blocker, Chrome Extension, Blokir Iklan, YouTube Ads, Anti Tracking, Privacy Protection">
+    <meta name="robots" content="index, follow">
     <title>Advanced Ad Blocker Settings</title>
+    <link rel="icon" type="image/png" href="icons/icon48.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta property="og:title" content="Advanced Ad Blocker">
+    <meta property="og:description" content="Blokir semua iklan secara efektif dengan Advanced Ad Blocker.">
+    <meta property="og:image" content="icons/icon128.png">
+    <meta property="og:url" content="https://github.com/EndiHariadi43/AdvancedAdBlocker">
+    <meta property="og:type" content="website">
 </head>
 
 <body>
@@ -17,18 +32,18 @@
         <p class="author">by Endi Hariadi</p>
         <div id="status" class="domain">Domain: </div>
 
-        <button id="toggle-blocking">Memuat...</button>
+        <button id="toggle-blocking">Loading...</button>
 
-        <h3>Elemen yang dapat diblokir:</h3>
+        <h3>Blockable elements:</h3>
         <div class="search-container">
             <input id="search-elements" type="text" placeholder="Cari elemen...">
         </div>
         <div class="buttons-container">
-            <button id="check-all">Pilih Semua</button>
-            <button id="uncheck-all">Hapus Semua</button>
+            <button id="check-all">Select All</button>
+            <button id="uncheck-all">Remove all</button>
         </div>
         <div id="element-list" class="element-list"></div>
-        <button id="save-settings">Simpan Pengaturan</button>
+        <button id="save-settings">Save Settings</button>
     </div>
 
     <script src="popup.js"></script>
