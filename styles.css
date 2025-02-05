@@ -1,0 +1,248 @@
+/* Gaya dasar untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    max-width: 100%;
+    width: 320px;
+    margin: 0 auto;
+    padding: 10px;
+    background: linear-gradient(135deg, #f0f4f7, #d9e6f2);
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Container utama */
+.popup-container {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Judul utama */
+.popup-container h1 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #0056b3;
+}
+
+/* Nama penulis */
+.popup-container .author {
+    font-size: 12px;
+    font-family: 'Courier New', monospace;
+    color: #666;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+/* Tampilan domain */
+.domain {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #0056b3;
+    word-wrap: break-word; /* Untuk domain panjang */
+}
+
+/* List elemen dengan scrollbar */
+.element-list {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f9f9f9;
+}
+
+.element-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.element-list::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 4px;
+}
+
+/* Gaya untuk item dalam daftar */
+.element-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+/* Gaya tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Container untuk tombol Pilih Semua dan Hapus Semua */
+.buttons-container {
+    display: flex;
+    justify-content: space-between; /* Menyebarkan tombol secara horizontal */
+    gap: 10px; /* Jarak antar tombol */
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Gaya tombol dalam container */
+.buttons-container button {
+    flex: 1; /* Setiap tombol memiliki lebar yang sama */
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container button:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.buttons-container button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Container header untuk logo dan judul */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Container header untuk logo dan judul */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk logo */
+.header .logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tombol nonaktif */
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.search-container {
+    width: 100%; /* Sesuaikan dengan lebar container */
+    margin-bottom: 10px;
+}
+
+/* Kolom pencarian */
+.search-container input {
+    width: calc(100% - 20px); /* Sesuaikan agar tidak melebihi lebar container */
+    max-width: 100%; /* Pastikan tidak melampaui lebar maksimum */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Tombol simpan pengaturan */
+#save-settings {
+    margin-top: 15px;
+    background: linear-gradient(135deg, #28a745, #218838);
+}
+
+#save-settings:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+}
+
+/* Responsivitas */
+@media (max-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    .element-list {
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .popup-container {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .buttons {
+        gap: 5px;
+    }
+
+    .buttons button {
+        padding: 8px;
+    }
+}
