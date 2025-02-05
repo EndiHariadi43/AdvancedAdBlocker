@@ -29,7 +29,7 @@ Ekstensi ini dikembangkan secara **independen**. Jika Anda merasa terbantu, moho
 
 📩 **Endi Hariadi** – [endi.linux.mint@gmail.com](mailto:endi.linux.mint@gmail.com)  
 💰 **Alamat Donasi BTTC (TRC20):**
-'TPGr6w2EjkMeiv2ShRVnHXjACSSSQaVV4W'
+**TPGr6w2EjkMeiv2ShRVnHXjACSSSQaVV4W**
 
 Dengan donasi, Anda membantu dalam **pengembangan fitur baru, peningkatan sistem, dan perbaikan bug**.
 
