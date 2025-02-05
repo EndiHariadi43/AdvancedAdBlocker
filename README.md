@@ -1,53 +1,76 @@
-# 🛡️ Advanced Ad Blocker
-**Block Ads, Protect Privacy, Speed ​​Up Browsing!**  
+# 🛡️ Advanced Ad Blocker  
 
-📌 **Made by:** Endi Hariadi  
+**Advanced Ad Blocker** is an exclusive Chrome extension designed to **eliminate all ads**, protect privacy, and enhance browsing speed for a **seamless online experience**.  
+
+📌 **Developed by:** Endi Hariadi  
 📧 **Email:** [endi.linux.mint@gmail.com](mailto:endi.linux.mint@gmail.com)  
+💰 **Support the developer with a donation:**  
+🔗 **BTTC (TRC20) Address:** `TPGr6w2EjkMeiv2ShRVnHXjACSSSQaVV4W`  
 
 ---
 
-## 🚀 Main Features
-✅ **Block All Types of Ads** (Google Ads, YouTube Ads, Taboola, etc.)  
-✅ **Whitelist Domain** (Set sites that are allowed to display ads)  
-✅ **Adblock Detection Block** (Avoid sites that prevent ad blocking)  
-✅ **Remove YouTube Ads** (Both video ads, overlays, and banners)  
-✅ **Modern and Lightweight Look** (Doesn't slow down your browser)  
-✅ **Support for Executive and Enterprise Users**  
+## 🌟 **To My Beloved Children** 💖  
+
+> **Muhammad Karl Pradipta, Muhammad Arsyad Zain, and Azkiya Nursyifa Aleyna**  
+> _"In this ever-changing world, be the guiding light with knowledge, kindness, and courage."_  
+
+✨ **Karl** – May you always have the wisdom to lead with a strong and kind heart.  
+✨ **Arsyad** – May you always have the curiosity to explore the world without limits.  
+✨ **Azkiya** – May you always have the sincerity and grace to bring peace wherever you go.  
+
+🌿 The world of technology is vast, but a heart full of love is always greater than everything else.  
+I believe you will grow into remarkable individuals, shaping innovations, and making a positive impact on the world.  
+
+*"Life is a journey. Knowledge and kindness are the footprints we leave behind forever."* 💡  
 
 ---
 
-## 📥 How to Install
-1. **Open Google Chrome** and access `chrome://extensions/`
-2. **Enable Developer Mode** in the upper right corner
-3. **Click "Load Unpacked"**, then select this extension folder
-4. **Done! Enjoy an ad-free browsing experience!**
+## 📜 **How to Install**  
+🔹 **Open Chrome**, then go to `chrome://extensions/`  
+🔹 **Enable Developer Mode**  
+🔹 **Click "Load Unpacked"**, then select the extension folder  
+🔹 **Done!** Enjoy an ad-free browsing experience 🚀  
 
 ---
 
-## 📖 How to Use
-1. **Open the Website** you want to visit
-2. **Click the Extension Icon** in the upper right corner of the browser
-3. **Select the Desired Option** (Block Ads, Remove YouTube Ads, etc.)
-4. **Done!** You can now enjoy the website without annoying ads!
+## 💎 **Premium & Exclusive Features**  
+✅ **Block All Ads** (Google Ads, YouTube Ads, Taboola, etc.)  
+✅ **Custom Whitelist** (Allow ads only on selected sites)  
+✅ **Bypass Adblock Detection** (Avoid annoying popups that block content)  
+✅ **Remove YouTube Ads** (Video ads, banners, and overlays)  
+✅ **Optimize Page Layout** (Remove empty spaces left by ads)  
+✅ **Built with the Latest Technology** (Efficient, lightweight, and secure)  
 
-NOTE: **To activate the feature, you must refresh the web page** after selecting the option. Do the same for other website pages.
-
----
-
-## 💰 Donate and Support
-This extension is developed **independently**. If you find it helpful, please consider making a **voluntary donation**.
-
-📩 **Endi Hariadi** – [endi.linux.mint@gmail.com](mailto:endi.linux.mint@gmail.com)  
-💰 **BTTC Donation Address (TRC20):**
-**TPGr6w2EjkMeiv2ShRVnHXjACSSSQaVV4W**
-
-By donating, you help in **new feature development, system improvements, and bug fixes**.
+**🚀 Faster, safer, and smoother browsing!**  
 
 ---
 
-## 📜 License & Copyright
-- This extension is **prohibited from being modified, claimed, or resold** without official permission.
-- Any **redistribution without written permission** will be subject to **legal action**.
-- **For legal personal and corporate use only**.
+## 💡 **Support & Donations**  
+💰 **If you find this extension useful, please consider donating to support further development.**  
+All donations will be used to **improve features & security** to ensure this extension remains the best!  
 
-🚀 **Advanced Ad Blocker – Free Your Browser from Ads!**
+🔗 **BTTC (TRC20) Address for donations:**  
+`TPGr6w2EjkMeiv2ShRVnHXjACSSSQaVV4W`  
+
+🙏 **Thank you for your support!**  
+
+---
+
+## 📜 **Copyright & Exclusive License**  
+⚠️ **Copyright © 2025 Endi Hariadi. All rights reserved.**  
+❌ Redistribution, modification, or claiming ownership of this extension is **strictly prohibited**.  
+✨ **Only exclusive users have the right to use this extension.**  
+
+---
+
+## 🔗 **GitHub Repository:**  
+🔗 [https://github.com/EndiHariadi43/AdvancedAdBlocker](https://github.com/EndiHariadi43/AdvancedAdBlocker)  
+
+🚀 **Advanced Ad Blocker - Remove Ads, Protect Privacy!**  
+
+---
+
+🌿 **✨ To My Children:**  
+*"The world keeps changing, but knowledge and kindness remain an everlasting legacy."* 💙  
+
+---
