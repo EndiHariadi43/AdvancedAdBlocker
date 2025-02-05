@@ -1,53 +1,53 @@
 # 🛡️ Advanced Ad Blocker
-**Blokir Iklan, Lindungi Privasi, Percepat Browsing!**  
+**Block Ads, Protect Privacy, Speed ​​Up Browsing!**  
 
-📌 **Dibuat oleh:** Endi Hariadi  
+📌 **Made by:** Endi Hariadi  
 📧 **Email:** [endi.linux.mint@gmail.com](mailto:endi.linux.mint@gmail.com)  
 
 ---
 
-## 🚀 Fitur Utama
-✅ **Blokir Semua Jenis Iklan** (Google Ads, YouTube Ads, Taboola, dll.)  
-✅ **Whitelist Domain** (Atur situs yang diperbolehkan menampilkan iklan)  
-✅ **Blokir Deteksi Adblock** (Menghindari situs yang mencegah pemblokiran iklan)  
-✅ **Hapus Iklan YouTube** (Baik iklan video, overlay, maupun banner)  
-✅ **Tampilan Modern & Ringan** (Tidak memperlambat browser Anda)  
-✅ **Dukungan untuk Pengguna Eksekutif & Perusahaan**  
+## 🚀 Main Features
+✅ **Block All Types of Ads** (Google Ads, YouTube Ads, Taboola, etc.)  
+✅ **Whitelist Domain** (Set sites that are allowed to display ads)  
+✅ **Adblock Detection Block** (Avoid sites that prevent ad blocking)  
+✅ **Remove YouTube Ads** (Both video ads, overlays, and banners)  
+✅ **Modern and Lightweight Look** (Doesn't slow down your browser)  
+✅ **Support for Executive and Enterprise Users**  
 
 ---
 
-## 📥 Cara Install
-1. **Buka Google Chrome** dan akses `chrome://extensions/`
-2. **Aktifkan Developer Mode** di pojok kanan atas
-3. **Klik "Load Unpacked"**, lalu pilih folder ekstensi ini
-4. **Selesai! Nikmati pengalaman browsing tanpa iklan!**
+## 📥 How to Install
+1. **Open Google Chrome** and access `chrome://extensions/`
+2. **Enable Developer Mode** in the upper right corner
+3. **Click "Load Unpacked"**, then select this extension folder
+4. **Done! Enjoy an ad-free browsing experience!**
 
 ---
 
-## 📖 Cara Penggunaan
-1. **Buka Situs Web** yang ingin Anda kunjungi
-2. **Klik Ikon Ekstensi** di pojok kanan atas browser
-3. **Pilih Opsi yang Diinginkan** (Blokir Iklan, Hapus Iklan YouTube, dll.)
-4. **Selesai!** Selanjutnya Anda dapt menikmati situs web tanpa iklan yang mengganggu!
+## 📖 How to Use
+1. **Open the Website** you want to visit
+2. **Click the Extension Icon** in the upper right corner of the browser
+3. **Select the Desired Option** (Block Ads, Remove YouTube Ads, etc.)
+4. **Done!** You can now enjoy the website without annoying ads!
 
-NOTE: **Untuk mengaktifkan fitur, Anda harus memperbarui halaman web** (refresh) setelah memilih opsi. Lakukan hal yang sama untuk halaman website lainnya.
+NOTE: **To activate the feature, you must refresh the web page** after selecting the option. Do the same for other website pages.
 
 ---
 
-## 💰 Donasi & Dukungan
-Ekstensi ini dikembangkan secara **independen**. Jika Anda merasa terbantu, mohon pertimbangkan untuk memberikan **donasi sukarela**.
+## 💰 Donate and Support
+This extension is developed **independently**. If you find it helpful, please consider making a **voluntary donation**.
 
 📩 **Endi Hariadi** – [endi.linux.mint@gmail.com](mailto:endi.linux.mint@gmail.com)  
-💰 **Alamat Donasi BTTC (TRC20):**
+💰 **BTTC Donation Address (TRC20):**
 **TPGr6w2EjkMeiv2ShRVnHXjACSSSQaVV4W**
 
-Dengan donasi, Anda membantu dalam **pengembangan fitur baru, peningkatan sistem, dan perbaikan bug**.
+By donating, you help in **new feature development, system improvements, and bug fixes**.
 
 ---
 
-## 📜 Lisensi & Hak Cipta
-- Ekstensi ini **dilarang untuk dimodifikasi, diklaim, atau dijual ulang** tanpa izin resmi.
-- Segala bentuk **distribusi ulang tanpa persetujuan tertulis** akan dikenakan **tindakan hukum**.
-- **Hanya untuk penggunaan pribadi dan perusahaan yang sah**.
+## 📜 License & Copyright
+- This extension is **prohibited from being modified, claimed, or resold** without official permission.
+- Any **redistribution without written permission** will be subject to **legal action**.
+- **For legal personal and corporate use only**.
 
-🚀 **Advanced Ad Blocker – Bebaskan Browser Anda dari Iklan!**
+🚀 **Advanced Ad Blocker – Free Your Browser from Ads!**
